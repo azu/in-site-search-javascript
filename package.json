@@ -1,0 +1,39 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "in-site-search-javascript",
+  "version": "1.0.0",
+  "description": "in site search bookmarklet",
+  "main": "lib/in-site-search-javascript.js",
+  "scripts": {
+    "build": "browserify src/in-site-search-javascript.js -o index.js"
+  },
+  "keywords": [
+    "bookmarklet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/in-site-search-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/in-site-search-javascript/issues"
+  },
+  "homepage": "https://github.com/azu/in-site-search-javascript",
+  "dependencies": {
+    "combokeys": "^2.4.6",
+    "jquery": "^3.1.1",
+    "lodash.debounce": "^4.0.8",
+    "mark.js": "github:julmot/mark.js"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  }
+}
