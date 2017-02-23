@@ -10,7 +10,10 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
-- [ ] Write usage instructions
+With `nativefier`
+
+  npm i -g nativefier
+  nativefier --name "ECMAScript" "https://tc39.github.io/ecma262/" --fast-quit --hide-window-frame --show-menu-bar --maximize --inject ./in-site-search-javascript/index.js
 
 ## Changelog
 
